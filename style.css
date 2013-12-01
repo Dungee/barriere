@@ -1,0 +1,14 @@
+body {background-color: #79874f;
+    /*margin: 200;
+    padding: 200;*/
+ position: absolute;
+    left: 50%;
+    width: 600px;
+    margin-left: -300px;
+    vertical-align: middle;
+    }
+h1 {color: orange; text-align: center; font-size: 210%;}
+form {font-size: 25px;}
+input {font-size: 20px;}
+#klein {font-size: 12px;}
+#white {color: white;}
