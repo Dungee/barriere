@@ -11,11 +11,12 @@
 <form action="http://de.wikipedia.org/wiki/Spezial:Suche">
    <fieldset>
       <legend class ="white">Wikipedia</legend>
-      <label class ="white">Suche
-      <input type="text"   name="search" value=""/>
-      <input class="klein" type="submit" name="go" value="Artikel"/>
-      <input class="klein" type="submit" name="fulltext" value="Volltext" />
-      </label>
+      <label class ="white" for="Suche">Suche</label>
+      <input id="Suche" type="text"   name="search" value=""/>
+      <label for="Artikel"></label>
+      <input id="Artikel" class="klein" type="submit" name="go" value="Artikel"/>
+      <label for="Volltext"></label>
+      <input id="Volltext" class="klein" type="submit" name="fulltext" value="Volltext" />
    </fieldset>
 </form>
 <p>
